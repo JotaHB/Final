@@ -33,13 +33,11 @@
                     List <Persona> list = dao.listar();
                     Iterator <Persona> iter = list.iterator();
                     Persona per = null;
-                    
-                %>
-                <tbody>
-                <% while(iter.hasNext()) {
+                    while(iter.hasNext()) {
                     per = iter.next();
                     
                 %>
+                <tbody>
                 <tr>
                     <td><%=per.getId()%></td>
                     <td><%=per.getDni()%></td>
