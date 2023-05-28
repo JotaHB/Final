@@ -13,12 +13,12 @@
     </head>
     <body>
         <div>
-            <h1>Agregar persona</h1>
+            <h1>Comprar Producto</h1>
             <form action="Controlador">
                 ID:<br>
                 <input type="text" name="txtDni">
                 <br>
-                Nombres:<br>
+                Nombre:<br>
                 <input type="text" name="txtNom">
                 <input type="submit" name="accion" value="Agregar"><br>
             </form>

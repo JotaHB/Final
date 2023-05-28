@@ -30,7 +30,6 @@
                 </thead>
                 <%
                     PersonaDAO dao = new PersonaDAO();
-                    out.println("Conexión exitosa");
                     List <Persona> list = dao.listar();
                     Iterator <Persona> iter = list.iterator();
                     Persona per = null;
